@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+<metadata>
+    <id>Lucene.Net.Esha</id>
+    <version>2.9.4.2</version>
+    <title>Lucene.Net</title>
+    <authors>Lucene.Net Community</authors>
+    <owners>ESHA Research, Inc.</owners>
+    <projectUrl>http://lucenenet.apache.org/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Lucene.Net is a port of the Lucene search engine library. This package contains Lucene.Net.dll 2.9.4.2, specifically for use by ESHA Research.</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>lucene.net core text search information retrieval lucene apache </tags>
+    <dependencies>
+        <dependency id="SharpZipLib" version="0.86.0" />
+    </dependencies>
+    </metadata>
+    <files>
+        <file src="build\bin\core\Release\Lucene.Net.dll" target="lib\net40" />
+    </files>
+</package>
